@@ -1,0 +1,17 @@
+# def are_equal(a, b):
+#     return a == b
+
+
+# are_equal(10, 10.0)
+
+from typing import TypeVar
+
+T = TypeVar('T')
+U = TypeVar('U')
+
+
+def are_equal(a: T, b: U) -> bool:
+    return a == b
+
+
+are_equal(10, 10.0)
